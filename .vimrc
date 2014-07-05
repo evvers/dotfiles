@@ -6,12 +6,15 @@ call vundle#begin()
 
 Plugin 'gmarik/Vundle.vim'
 
+" Common
 Plugin 'tpope/vim-sensible'
-Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/highlight_current_line.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
 Plugin 'vim-scripts/matchit.zip'
+
+" Git integration
+Plugin 'tpope/vim-fugitive'
 
 call vundle#end()
 filetype plugin indent on
