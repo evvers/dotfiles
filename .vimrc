@@ -11,6 +11,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-scripts/highlight_current_line.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'ervandew/supertab'
+Plugin 'vim-scripts/matchit.zip'
 
 call vundle#end()
 filetype plugin indent on
